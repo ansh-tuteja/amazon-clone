@@ -1,0 +1,305 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+.navbar{
+    background-color:#131921;
+    height:60px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Amazon Ember', sans-serif;
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember Duospace', sans-serif;
+    font-family: 'Amazon Ember Mono', sans-serif;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+
+
+.logo:hover{
+    border:1px solid white;
+}
+.logo{
+    height:60px;
+    width:130px;
+    margin-top: 0px;
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    border:1px solid transparent;
+}
+
+.main-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid transparent;
+    padding:4px;
+}
+.main-location:hover{
+    border: 1px solid white;
+}
+.location{
+    display: flex;
+    gap: 4px;
+}
+.first-address{
+    color:#cccccc;
+    font:12px arial;
+    margin-left:15px;
+
+}
+.second-address{
+    font:14px arial,sans-serif;
+    margin: 3px;
+    font-weight: 700;
+
+}
+/*search box*/
+
+.nav-search{
+    padding-left: 14px;
+    display: flex;
+    
+    
+}
+
+.categories{
+    border-radius:8px 0px 0px 8px;
+    width: 51px;
+    height: 40px; 
+    background-color: #E6E6E6;
+    color:#0F1111;
+    font-size: 14px;
+    text-align: center;
+}
+
+.searching-area{
+    height: 40px;
+    width: 380px;
+
+}
+.search-icon{
+    display: flex;
+    height:40px;
+    width:40px;
+    background-color:#f3a847;
+    justify-content: center;
+    align-items: center;
+    border:2px;
+    border-radius: 0 8px 8px 0;
+    
+    
+}
+
+
+/*flag-image*/
+.language-selector{
+    display: flex;
+    padding: 18px 9px 7px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.flag-image{
+background-image: url(Flag_of_India.png);
+background-size: cover;
+height: 16px;
+width: 21px;
+}
+
+.language{
+padding-left: 5px;
+color:white;
+background-color:#131921;
+border:1px solid transparent;
+font-size: 14px;
+font-weight: 600;
+
+}
+
+.signin-container{
+    display:flex;
+    flex-direction: column;
+    color: white;
+
+}
+.greeting{
+    padding-left: 8px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.accounts{
+    background-color: #131921;
+    color: white;
+    border: 2px solid transparent;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.returns-and-orders{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #131921;
+
+}
+.returns{
+    color:white;
+    background-color: #131921;
+    font-size: 12px;
+}
+.orders{
+    font-size: 14px;
+    font-weight: 600;
+}
+.cart-container{
+    display:flex;
+    color:white;
+    padding-left: 15px;
+    align-items: center;
+
+    font-weight: 600;
+}
+.cart-container i{
+    font-size: 20px;
+}
+.cart-container p{
+    padding-top: 7px;
+}
+
+/*border thing*/
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+/*2nd navbar*/
+
+.panel{
+    
+    display: flex;
+    background-color: #232f3e;
+    height:39px;
+    width:100%;
+    color:white;
+    align-items: center;
+    font-family: 'Amazon Ember 800', sans-serif;
+    
+}
+
+.panel-all{
+    display: flex;
+    width:30% ;
+    justify-content: space-between;
+}
+
+/*hero-section*/
+.hero-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image{
+    display: flex;
+    background-image: url('hero_image.jpg');
+    height:400px;
+    width:100%;
+    background-size: cover;
+}
+.hero-banner{
+    margin-left: 170px;
+    margin-top:340px;
+    display: flex;
+    background-color: white;
+    border:1px solid white;
+    height:40px;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.hero-banner a{
+    text-decoration: none;
+
+}
+
+/*boxes*/
+.boxes{
+    display:grid;
+        grid-template-columns: auto auto auto auto;
+        gap:15px;
+    background-color: #9db5c7;
+    padding:10px
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8
+{
+    background-color: white;
+    border:1px solid transparent;
+    height: 388px;
+    width:290px ;
+    
+    
+}
+
+.box-heading{
+    display: flex;
+    flex-direction: column;
+    height:69px;
+    width: 100%;
+    border:1px solid transparent;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 30px;
+    justify-content: center;
+    align-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-image-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 15px;
+    gap:15px;
+    
+    
+
+}
+.image-div img{
+
+    height:100px;
+    width: 120px;
+    
+    
+
+    
+}
+.box-image{
+    display: flex;
+    justify-content: center;
+   
+   background-position:top center;
+    
+
+}
+.image-div p{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 4px;
+}
+
